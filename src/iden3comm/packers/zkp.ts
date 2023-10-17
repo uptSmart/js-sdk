@@ -9,7 +9,7 @@ import {
 } from '../types';
 import { Token, Header, ProvingMethodAlg, proving } from '@iden3/js-jwz';
 import { AuthV2PubSignals, CircuitId } from '../../circuits/index';
-import { DID, Id } from '@iden3/js-iden3-core';
+import { DID, Id } from '@uptsmart/js-iden3-core';
 import { bytesToProtocolMessage } from '../utils/envelope';
 import {
   ErrNoProvingMethodAlg,

@@ -1,5 +1,5 @@
 import { Hex } from '@iden3/js-crypto';
-import { BytesHelper, checkBigIntInField, SchemaHash } from '@iden3/js-iden3-core';
+import { BytesHelper, checkBigIntInField, SchemaHash } from '@uptsmart/js-iden3-core';
 import { Merklizer } from '@iden3/js-jsonld-merklization';
 import { keccak256 } from '@lumeweb/js-sha3-browser';
 

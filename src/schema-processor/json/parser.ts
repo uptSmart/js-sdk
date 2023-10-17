@@ -1,5 +1,5 @@
 import { W3CCredential, MerklizedRootPosition, SubjectPosition } from '../../verifiable';
-import { Claim as CoreClaim, ClaimOptions, DID } from '@iden3/js-iden3-core';
+import { Claim as CoreClaim, ClaimOptions, DID } from '@uptsmart/js-iden3-core';
 import { createSchemaHash, fillSlot } from '../utils';
 import { byteDecoder, byteEncoder } from '../../utils';
 import { Merklizer, Options, Path } from '@iden3/js-jsonld-merklization';

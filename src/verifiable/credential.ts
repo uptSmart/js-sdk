@@ -1,5 +1,5 @@
 import { BJJSignatureProof2021, Iden3SparseMerkleTreeProof, CredentialStatus } from './proof';
-import { Claim } from '@iden3/js-iden3-core';
+import { Claim } from '@uptsmart/js-iden3-core';
 import { ProofType } from './constants';
 import { Proof } from '@iden3/js-merkletree';
 import { Merklizer, Options } from '@iden3/js-jsonld-merklization';

@@ -9,7 +9,7 @@ export * from './iden3comm';
 export * from './circuits';
 export * from './iden3comm/handlers';
 export * from './utils';
-import * as core from '@iden3/js-iden3-core';
+import * as core from '@uptsmart/js-iden3-core';
 import * as jsonLDMerklizer from '@iden3/js-jsonld-merklization';
 export { core };
 export { jsonLDMerklizer };

@@ -86,10 +86,10 @@ describe('fetch', () => {
             "@context": [
                 "https://www.w3.org/2018/credentials/v1",
                 "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld",
-                "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v100.json-ld"
+                "http://47.242.107.228:3003/schemas/json-ld/kyc-v100.json-ld"
             ],
             "credentialSchema": {
-                "id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCAgeCredential-v100.json",
+                "id": "http://47.242.107.228:3003/schemas/json/KYCAgeCredential-v100.json",
                 "type": "JsonSchemaValidator2018"
             },
             "credentialStatus": {

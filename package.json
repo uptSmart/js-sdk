@@ -1,6 +1,6 @@
 {
-  "name": "@0xpolygonid/js-sdk",
-  "version": "1.2.1",
+  "name": "@uptsmart/js-sdk",
+  "version": "1.0.6",
   "description": "SDK to work with Polygon ID",
   "main": "dist/cjs/index.js",
   "module": "dist/esm_esbuild/index.js",
@@ -71,7 +71,7 @@
   },
   "dependencies": {
     "@iden3/js-crypto": "1.0.1",
-    "@iden3/js-iden3-core": "1.0.2",
+    "@uptsmart/js-iden3-core": "1.0.4",
     "@iden3/js-jsonld-merklization": "1.0.2",
     "@iden3/js-jwz": "1.0.2",
     "@iden3/js-merkletree": "1.0.1",

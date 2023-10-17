@@ -1,4 +1,4 @@
-import { buildDIDType, DID, Id, BytesHelper } from '@iden3/js-iden3-core';
+import { buildDIDType, DID, Id, BytesHelper } from '@uptsmart/js-iden3-core';
 /**
  * Checks if state is genesis state
  *

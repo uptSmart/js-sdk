@@ -219,7 +219,7 @@ describe('contract-request', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/kyc-nonmerklized.json',
+        'http://47.242.107.228:3003/schemas/json/kyc-nonmerklized.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -244,7 +244,7 @@ describe('contract-request', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-nonmerklized.jsonld',
+          'http://47.242.107.228:3003/schemas/json-ld/kyc-nonmerklized.jsonld',
         credentialSubject: {
           documentType: {
             $eq: 99
@@ -358,7 +358,7 @@ describe('contract-request', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCAgeCredential-v3.json',
+        'http://47.242.107.228:3003/schemas/json/KYCAgeCredential-v3.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -383,7 +383,7 @@ describe('contract-request', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld',
+          'http://47.242.107.228:3003/schemas/json-ld/kyc-v3.json-ld',
         credentialSubject: {
           birthday: {
             $lt: 20020101

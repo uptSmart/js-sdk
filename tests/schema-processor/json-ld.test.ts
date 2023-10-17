@@ -16,15 +16,15 @@ describe('get types from jsonld schema', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ],
       [
         'KYCCountryOfResidenceCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
       ],
       [
         'KYCEmployee',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
@@ -37,7 +37,7 @@ describe('get types from jsonld schema', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ]
     ]);
 
@@ -66,7 +66,7 @@ describe('get types from jsonld schema', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ]
     ]);
 
@@ -95,15 +95,15 @@ describe('extract types with documentType field', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ],
       [
         'KYCCountryOfResidenceCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
       ],
       [
         'KYCEmployee',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
@@ -116,7 +116,7 @@ describe('extract types with documentType field', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ]
     ]);
 
@@ -132,7 +132,7 @@ describe('extract types with salary field', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCEmployee',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
@@ -162,7 +162,7 @@ describe('extract types with [ZKPexperiance, hireDate, position, salary, documen
     const e: Map<string, string> = new Map([
       [
         'KYCEmployee',
-        'https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 

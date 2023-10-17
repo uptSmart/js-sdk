@@ -6,7 +6,7 @@ import { IPackageManager, ZeroKnowledgeProofRequest, ZeroKnowledgeProofResponse 
 
 import { ProofQuery } from '../../verifiable';
 import { ContractInvokeRequest } from '../types/protocol/contract-request';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from '@uptsmart/js-iden3-core';
 import { IOnChainZKPVerifier } from '../../storage';
 import { Signer } from 'ethers';
 

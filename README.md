@@ -1,17 +1,17 @@
-# Polygon ID JS SDK
+# Uptick DID JS SDK
 
-SDK to work with Polygon ID using JavaScript and TypeScript languages.
+SDK to work with Uptick DID using JavaScript and TypeScript languages.
 
 ## Disclaimer
 
-Polygon ID JS SDK is in public now. It may still contain bugs or missing functionality, that it will be added in next versions.
+Uptick DID JS SDK is in public now. It may still contain bugs or missing functionality, that it will be added in next versions.
 
 ## Usage
 
 Installation:
 
 ```bash
-npm install @0xpolygonid/js-sdk
+npm install @uptsmart/js-sdk
 ```
 
 See [tests](/tests) for examples on how to use SDK.
@@ -56,4 +56,4 @@ And place actual circuits to `test/proofs/testdata`
         npm run doc:watch:website
     ```
 
-Documentation can be found [here](https://0xpolygonid.github.io/js-sdk-tutorials/)
+Documentation can be found [here](https://uptickDID.github.io/js-sdk-tutorials/)

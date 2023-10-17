@@ -5,7 +5,7 @@ import {
   DID,
   getUnixTimestamp,
   MerklizedRootPosition
-} from '@iden3/js-iden3-core';
+} from '@uptsmart/js-iden3-core';
 import { newHashFromString } from '@iden3/js-merkletree';
 import {
   AtomicQueryMTPV2Inputs,

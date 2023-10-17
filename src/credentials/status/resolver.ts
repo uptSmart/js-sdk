@@ -1,4 +1,4 @@
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from '@uptsmart/js-iden3-core';
 import {
   IssuerData,
   RevocationStatus,

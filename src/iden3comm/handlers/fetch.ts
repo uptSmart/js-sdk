@@ -12,7 +12,7 @@ import * as uuid from 'uuid';
 import { W3CCredential } from '../../verifiable';
 import { byteDecoder, byteEncoder } from '../../utils';
 import { proving } from '@iden3/js-jwz';
-import { DID } from '@iden3/js-iden3-core';
+import { DID } from '@uptsmart/js-iden3-core';
 
 /**
  *

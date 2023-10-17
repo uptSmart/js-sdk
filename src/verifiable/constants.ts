@@ -16,7 +16,8 @@ export const VerifiableConstants = Object.freeze({
     // JSONLDSchemaIden3Credential is a schema for context with Iden3Credential type
     IDEN3_CREDENTIAL: 'https://schema.iden3.io/core/jsonld/iden3proofs.jsonld',
     // JSONLDSchemaW3CCredential2018 is a schema for context with VerifiableCredential type
-    W3C_CREDENTIAL_2018: 'https://www.w3.org/2018/credentials/v1'
+    // W3C_CREDENTIAL_2018: 'https://www.w3.org/2018/credentials/v1'
+    W3C_CREDENTIAL_2018: 'http://47.242.107.228:3003/v1.json'
   },
   // JsonSchema2023 JSON schema for verification of Iden3Credential
   JSON_SCHEMA_VALIDATOR: 'JsonSchema2023',

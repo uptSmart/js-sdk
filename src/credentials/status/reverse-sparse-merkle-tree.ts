@@ -1,4 +1,4 @@
-import { buildDIDType, BytesHelper, DID, Id } from '@iden3/js-iden3-core';
+import { buildDIDType, BytesHelper, DID, Id } from '@uptsmart/js-iden3-core';
 
 import {
   newHashFromBigInt,
