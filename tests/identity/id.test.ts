@@ -263,7 +263,7 @@ describe('identity', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/kyc-nonmerklized.json',
+        'https://issuer.uptick.network/schemas/json/kyc-nonmerklized.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -309,7 +309,7 @@ describe('identity', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/kyc-nonmerklized.json',
+        'https://issuer.uptick.network/schemas/json/kyc-nonmerklized.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),

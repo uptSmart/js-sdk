@@ -121,7 +121,7 @@ describe('sig proofs', () => {
   it('sigv2-non-merklized', async () => {
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/kyc-nonmerklized.json',
+        'https://issuer.uptick.network/schemas/json/kyc-nonmerklized.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -146,7 +146,7 @@ describe('sig proofs', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'http://47.242.107.228:3003/schemas/json-ld/kyc-nonmerklized.jsonld',
+          'https://issuer.uptick.network/schemas/json-ld/kyc-nonmerklized.jsonld',
         credentialSubject: {
           documentType: {
             $eq: 99
@@ -170,7 +170,7 @@ describe('sig proofs', () => {
   it('sigv2-merklized', async () => {
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/KYCAgeCredential-v3.json',
+        'https://issuer.uptick.network/schemas/json/KYCAgeCredential-v3.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -195,7 +195,7 @@ describe('sig proofs', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'http://47.242.107.228:3003/schemas/json-ld/kyc-v3.json-ld',
+          'https://issuer.uptick.network/schemas/json-ld/kyc-v3.json-ld',
         credentialSubject: {
           documentType: {
             $eq: 99
@@ -222,7 +222,7 @@ describe('sig proofs', () => {
   it('sigv2-merklized-query-array', async () => {
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/KYCAgeCredential-v3.json',
+        'https://issuer.uptick.network/schemas/json/KYCAgeCredential-v3.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -247,7 +247,7 @@ describe('sig proofs', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'http://47.242.107.228:3003/schemas/json-ld/kyc-v3.json-ld',
+          'https://issuer.uptick.network/schemas/json-ld/kyc-v3.json-ld',
         credentialSubject: {
           documentType: {
             $in: [99]

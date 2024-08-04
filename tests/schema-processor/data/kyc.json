@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld",
-        "jsonSchema": "http://47.242.107.228:3003/schemas/json/KYCEmployee-v101.json"
+        "jsonLdContext": "https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld",
+        "jsonSchema": "https://issuer.uptick.network/schemas/json/KYCEmployee-v101.json"
       }
     },
     "required": [

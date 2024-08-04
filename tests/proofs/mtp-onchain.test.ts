@@ -144,7 +144,7 @@ describe('mtp onchain proofs', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/KYCAgeCredential-v3.json',
+        'https://issuer.uptick.network/schemas/json/KYCAgeCredential-v3.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -200,7 +200,7 @@ describe('mtp onchain proofs', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'http://47.242.107.228:3003/schemas/json-ld/kyc-v3.json-ld',
+          'https://issuer.uptick.network/schemas/json-ld/kyc-v3.json-ld',
         credentialSubject: {
           documentType: {
             $eq: 99

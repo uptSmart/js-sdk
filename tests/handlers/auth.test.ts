@@ -198,7 +198,7 @@ describe('auth', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/kyc-nonmerklized.json',
+        'https://issuer.uptick.network/schemas/json/kyc-nonmerklized.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: userDID.string(),
@@ -223,7 +223,7 @@ describe('auth', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'http://47.242.107.228:3003/schemas/json-ld/kyc-nonmerklized.jsonld',
+          'https://issuer.uptick.network/schemas/json-ld/kyc-nonmerklized.jsonld',
         credentialSubject: {
           documentType: {
             $eq: 99
@@ -288,7 +288,7 @@ describe('auth', () => {
 
     const claimReq: CredentialRequest = {
       credentialSchema:
-        'http://47.242.107.228:3003/schemas/json/kyc-nonmerklized.json',
+        'https://issuer.uptick.network/schemas/json/kyc-nonmerklized.json',
       type: 'KYCAgeCredential',
       credentialSubject: {
         id: profileDID.string(),
@@ -313,7 +313,7 @@ describe('auth', () => {
         allowedIssuers: ['*'],
         type: claimReq.type,
         context:
-          'http://47.242.107.228:3003/schemas/json-ld/kyc-nonmerklized.jsonld',
+          'https://issuer.uptick.network/schemas/json-ld/kyc-nonmerklized.jsonld',
         credentialSubject: {
           documentType: {
             $eq: 99

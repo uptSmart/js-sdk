@@ -16,15 +16,15 @@ describe('get types from jsonld schema', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ],
       [
         'KYCCountryOfResidenceCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
       ],
       [
         'KYCEmployee',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
@@ -37,7 +37,7 @@ describe('get types from jsonld schema', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ]
     ]);
 
@@ -66,7 +66,7 @@ describe('get types from jsonld schema', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ]
     ]);
 
@@ -95,15 +95,15 @@ describe('extract types with documentType field', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ],
       [
         'KYCCountryOfResidenceCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCCountryOfResidenceCredential'
       ],
       [
         'KYCEmployee',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
@@ -116,7 +116,7 @@ describe('extract types with documentType field', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCAgeCredential',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCAgeCredential'
       ]
     ]);
 
@@ -132,7 +132,7 @@ describe('extract types with salary field', () => {
     const e: Map<string, string> = new Map([
       [
         'KYCEmployee',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
@@ -162,7 +162,7 @@ describe('extract types with [ZKPexperiance, hireDate, position, salary, documen
     const e: Map<string, string> = new Map([
       [
         'KYCEmployee',
-        'http://47.242.107.228:3003/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
+        'https://issuer.uptick.network/schemas/json-ld/kyc-v101.json-ld#KYCEmployee'
       ]
     ]);
 
